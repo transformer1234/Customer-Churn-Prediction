@@ -38,3 +38,11 @@ customer-churn-prediction/
 
 ## 📁 Dataset
 Kaggle: Telco Customer Churn Dataset
+
+## How to run this project
+### python file
+```bash
+pip install -r requirements.txt
+python src/model.py
+```
+### notebooks are in notebooks/ folder

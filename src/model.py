@@ -45,7 +45,7 @@ def train_model(df):
 
 
 if __name__ == '__main__':
-    df = load_data("../data/Telco-Customer-Churn.csv")
+    df = load_data("./data/Telco-Customer-Churn.csv")
     df = preprocess(df)
     model, results = train_model(df)
 
